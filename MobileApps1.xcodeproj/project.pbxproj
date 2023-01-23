@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB1CF32297E121200B15FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF31297E121200B15FF3 /* AppDelegate.swift */; };
+		DAB1CF34297E121200B15FF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF33297E121200B15FF3 /* SceneDelegate.swift */; };
+		DAB1CF36297E121200B15FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF35297E121200B15FF3 /* ViewController.swift */; };
+		DAB1CF39297E121200B15FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1CF37297E121200B15FF3 /* Main.storyboard */; };
+		DAB1CF3B297E121400B15FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB1CF3A297E121400B15FF3 /* Assets.xcassets */; };
+		DAB1CF3E297E121400B15FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1CF3C297E121400B15FF3 /* LaunchScreen.storyboard */; };
+		DAB1CF49297E121400B15FF3 /* MobileApps1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF48297E121400B15FF3 /* MobileApps1Tests.swift */; };
+		DAB1CF53297E121400B15FF3 /* MobileApps1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF52297E121400B15FF3 /* MobileApps1UITests.swift */; };
+		DAB1CF55297E121400B15FF3 /* MobileApps1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1CF54297E121400B15FF3 /* MobileApps1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB1CF45297E121400B15FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB1CF26297E121200B15FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB1CF2D297E121200B15FF3;
+			remoteInfo = MobileApps1;
+		};
+		DAB1CF4F297E121400B15FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB1CF26297E121200B15FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB1CF2D297E121200B15FF3;
+			remoteInfo = MobileApps1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB1CF2E297E121200B15FF3 /* MobileApps1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileApps1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1CF31297E121200B15FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB1CF33297E121200B15FF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAB1CF35297E121200B15FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB1CF38297E121200B15FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB1CF3A297E121400B15FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB1CF3D297E121400B15FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB1CF3F297E121400B15FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB1CF44297E121400B15FF3 /* MobileApps1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileApps1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1CF48297E121400B15FF3 /* MobileApps1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApps1Tests.swift; sourceTree = "<group>"; };
+		DAB1CF4E297E121400B15FF3 /* MobileApps1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileApps1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1CF52297E121400B15FF3 /* MobileApps1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApps1UITests.swift; sourceTree = "<group>"; };
+		DAB1CF54297E121400B15FF3 /* MobileApps1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApps1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB1CF2B297E121200B15FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF41297E121400B15FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF4B297E121400B15FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB1CF25297E121200B15FF3 = {
+			isa = PBXGroup;
+			children = (
+				DAB1CF30297E121200B15FF3 /* MobileApps1 */,
+				DAB1CF47297E121400B15FF3 /* MobileApps1Tests */,
+				DAB1CF51297E121400B15FF3 /* MobileApps1UITests */,
+				DAB1CF2F297E121200B15FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB1CF2F297E121200B15FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1CF2E297E121200B15FF3 /* MobileApps1.app */,
+				DAB1CF44297E121400B15FF3 /* MobileApps1Tests.xctest */,
+				DAB1CF4E297E121400B15FF3 /* MobileApps1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB1CF30297E121200B15FF3 /* MobileApps1 */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1CF31297E121200B15FF3 /* AppDelegate.swift */,
+				DAB1CF33297E121200B15FF3 /* SceneDelegate.swift */,
+				DAB1CF35297E121200B15FF3 /* ViewController.swift */,
+				DAB1CF37297E121200B15FF3 /* Main.storyboard */,
+				DAB1CF3A297E121400B15FF3 /* Assets.xcassets */,
+				DAB1CF3C297E121400B15FF3 /* LaunchScreen.storyboard */,
+				DAB1CF3F297E121400B15FF3 /* Info.plist */,
+			);
+			path = MobileApps1;
+			sourceTree = "<group>";
+		};
+		DAB1CF47297E121400B15FF3 /* MobileApps1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1CF48297E121400B15FF3 /* MobileApps1Tests.swift */,
+			);
+			path = MobileApps1Tests;
+			sourceTree = "<group>";
+		};
+		DAB1CF51297E121400B15FF3 /* MobileApps1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1CF52297E121400B15FF3 /* MobileApps1UITests.swift */,
+				DAB1CF54297E121400B15FF3 /* MobileApps1UITestsLaunchTests.swift */,
+			);
+			path = MobileApps1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB1CF2D297E121200B15FF3 /* MobileApps1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1CF58297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1" */;
+			buildPhases = (
+				DAB1CF2A297E121200B15FF3 /* Sources */,
+				DAB1CF2B297E121200B15FF3 /* Frameworks */,
+				DAB1CF2C297E121200B15FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileApps1;
+			productName = MobileApps1;
+			productReference = DAB1CF2E297E121200B15FF3 /* MobileApps1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB1CF43297E121400B15FF3 /* MobileApps1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1CF5B297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1Tests" */;
+			buildPhases = (
+				DAB1CF40297E121400B15FF3 /* Sources */,
+				DAB1CF41297E121400B15FF3 /* Frameworks */,
+				DAB1CF42297E121400B15FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB1CF46297E121400B15FF3 /* PBXTargetDependency */,
+			);
+			name = MobileApps1Tests;
+			productName = MobileApps1Tests;
+			productReference = DAB1CF44297E121400B15FF3 /* MobileApps1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB1CF4D297E121400B15FF3 /* MobileApps1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1CF5E297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1UITests" */;
+			buildPhases = (
+				DAB1CF4A297E121400B15FF3 /* Sources */,
+				DAB1CF4B297E121400B15FF3 /* Frameworks */,
+				DAB1CF4C297E121400B15FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB1CF50297E121400B15FF3 /* PBXTargetDependency */,
+			);
+			name = MobileApps1UITests;
+			productName = MobileApps1UITests;
+			productReference = DAB1CF4E297E121400B15FF3 /* MobileApps1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB1CF26297E121200B15FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DAB1CF2D297E121200B15FF3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DAB1CF43297E121400B15FF3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DAB1CF2D297E121200B15FF3;
+					};
+					DAB1CF4D297E121400B15FF3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DAB1CF2D297E121200B15FF3;
+					};
+				};
+			};
+			buildConfigurationList = DAB1CF29297E121200B15FF3 /* Build configuration list for PBXProject "MobileApps1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB1CF25297E121200B15FF3;
+			productRefGroup = DAB1CF2F297E121200B15FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB1CF2D297E121200B15FF3 /* MobileApps1 */,
+				DAB1CF43297E121400B15FF3 /* MobileApps1Tests */,
+				DAB1CF4D297E121400B15FF3 /* MobileApps1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB1CF2C297E121200B15FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1CF3E297E121400B15FF3 /* LaunchScreen.storyboard in Resources */,
+				DAB1CF3B297E121400B15FF3 /* Assets.xcassets in Resources */,
+				DAB1CF39297E121200B15FF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF42297E121400B15FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF4C297E121400B15FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB1CF2A297E121200B15FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1CF36297E121200B15FF3 /* ViewController.swift in Sources */,
+				DAB1CF32297E121200B15FF3 /* AppDelegate.swift in Sources */,
+				DAB1CF34297E121200B15FF3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF40297E121400B15FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1CF49297E121400B15FF3 /* MobileApps1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1CF4A297E121400B15FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1CF55297E121400B15FF3 /* MobileApps1UITestsLaunchTests.swift in Sources */,
+				DAB1CF53297E121400B15FF3 /* MobileApps1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB1CF46297E121400B15FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB1CF2D297E121200B15FF3 /* MobileApps1 */;
+			targetProxy = DAB1CF45297E121400B15FF3 /* PBXContainerItemProxy */;
+		};
+		DAB1CF50297E121400B15FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB1CF2D297E121200B15FF3 /* MobileApps1 */;
+			targetProxy = DAB1CF4F297E121400B15FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB1CF37297E121200B15FF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB1CF38297E121200B15FF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB1CF3C297E121400B15FF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB1CF3D297E121400B15FF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB1CF56297E121400B15FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB1CF57297E121400B15FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB1CF59297E121400B15FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileApps1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB1CF5A297E121400B15FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileApps1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB1CF5C297E121400B15FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileApps1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileApps1";
+			};
+			name = Debug;
+		};
+		DAB1CF5D297E121400B15FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileApps1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileApps1";
+			};
+			name = Release;
+		};
+		DAB1CF5F297E121400B15FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileApps1;
+			};
+			name = Debug;
+		};
+		DAB1CF60297E121400B15FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicole.MobileApps1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileApps1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB1CF29297E121200B15FF3 /* Build configuration list for PBXProject "MobileApps1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1CF56297E121400B15FF3 /* Debug */,
+				DAB1CF57297E121400B15FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB1CF58297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1CF59297E121400B15FF3 /* Debug */,
+				DAB1CF5A297E121400B15FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB1CF5B297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1CF5C297E121400B15FF3 /* Debug */,
+				DAB1CF5D297E121400B15FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB1CF5E297E121400B15FF3 /* Build configuration list for PBXNativeTarget "MobileApps1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1CF5F297E121400B15FF3 /* Debug */,
+				DAB1CF60297E121400B15FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB1CF26297E121200B15FF3 /* Project object */;
+}
